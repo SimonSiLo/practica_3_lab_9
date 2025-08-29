@@ -26,3 +26,9 @@ function factorial(num) {
 function exponente(base, exponente) {
   return Math.pow(base, exponente);
 }
+function raizCuadrada(num) {
+  if (num < 0) {
+    return "Error: No existe raíz cuadrada de números negativos";
+  }
+  return Math.sqrt(num);
+}
