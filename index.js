@@ -23,3 +23,6 @@ function factorial(num) {
   }
   return resultado;
 }
+function exponente(base, exponente) {
+  return Math.pow(base, exponente);
+}
